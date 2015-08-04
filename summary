@@ -33,7 +33,7 @@ Simple Summaries of Data:
             table()
         
         Overlaying Features
-            abline()
+            regression line: abline()
             
     Two dimensions
         Multiple/overlayed 1-D plots (Lattice/ggplot2)
@@ -44,6 +44,7 @@ Simple Summaries of Data:
         Base
             with(..., plot())
             functions to add/modify: text, lines, points, axis
+            *** base graphics parameters: ?par
         Lattice
             single function call: xyplot(), bwplot(), etc
             useful for conditioning plots: how y changes with x across levels of z
@@ -51,3 +52,10 @@ Simple Summaries of Data:
         ggplot2
             mixes elements of Base and Lattice
             qplot()
+    
+    Base plotting system
+        packages:
+            graphics: plot(), hist(), boxplot()
+            grDevices
+            lattice: xyplot(), bwplot(), levelplot()
+            grid: bases's independent graphing system
