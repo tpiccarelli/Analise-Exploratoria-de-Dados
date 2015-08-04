@@ -1,0 +1,53 @@
+# Analise-Exploratoria-de-Dados
+Coursera: Exploratory Data Analysis
+
+Principles of Analytic Graphics:
+    Principle 1: Show comparisons
+        Evidence for a hypothesis is always relative to another competing hypothesis: "Compared to What?"
+        
+    Principle 2: Show causality, mechanism, explanation, systematic structure
+    
+    Principle 3: Show multivariate data
+    
+    Principle 4: Integration of evidence
+        Completely integrate words, numbers, images, diagrams
+    
+    Principle 5: Describe and document the evidence with appropriate labels, scales, sources, etc.
+        A data graphic should tell a complete story
+    
+    Principle 6: Content is king
+        Analytical  presentations  ultimately  stand  or  fall  depending  on  the  quality,  relevance,  and integrity of their content
+        
+Simple Summaries of Data:
+    One dimension
+        Five-number summary (min, mean, median, max, 1st & 3rd qt)
+            summary()
+        Boxplots
+            boxplot()
+        Histograms
+            hist()
+            rug()
+        Density plot
+            
+        Barplot
+            table()
+        
+        Overlaying Features
+            abline()
+            
+    Two dimensions
+        Multiple/overlayed 1-D plots (Lattice/ggplot2)
+        Scatterplots: with(..., plot())
+        Smooth scatterplots
+    
+    Plotting systems
+        Base
+            with(..., plot())
+            functions to add/modify: text, lines, points, axis
+        Lattice
+            single function call: xyplot(), bwplot(), etc
+            useful for conditioning plots: how y changes with x across levels of z
+            margins/spacing set automatically
+        ggplot2
+            mixes elements of Base and Lattice
+            qplot()
