@@ -17,7 +17,7 @@ Principles of Analytic Graphics:
     
     Principle 6: Content is king
         Analytical  presentations  ultimately  stand  or  fall  depending  on  the  quality,  relevance,  and integrity of their content
-        
+
 Simple Summaries of Data:
     One dimension
         Five-number summary (min, mean, median, max, 1st & 3rd qt)
@@ -59,3 +59,11 @@ Simple Summaries of Data:
             grDevices
             lattice: xyplot(), bwplot(), levelplot()
             grid: bases's independent graphing system
+
+    Graphics devices
+        windows(): launch screen device
+        ?Devices: return list of devices
+        dev.off(): close file device
+        dev.cur(): currently active graphics device
+        dev.copy(): copy a plot from one device to another
+        dev.copy2pdf(): specifically copy a plot to a PDF file
